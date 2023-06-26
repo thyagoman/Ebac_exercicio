@@ -1,0 +1,24 @@
+Algoritmo CafeDaManha
+
+Inicio
+   ("Preparar café da manhã.")
+	se (hora == 7.0) {
+	ligarDespertador = true
+	Escreva("1. Acorde e levante da cama.")
+}
+   	se (ligarDespertador = true && hora == 7.30){
+	Escreva("2. Vá até a cozinha.")
+   	Escreva("3. Pegue uma xícara.")
+	Escreva("4. Coloque água para ferver.")
+   	Escreva("5. Pegue uma colher de café.")
+   	Escreva("6. Coloque o café na xícara.")	 
+	Escreva("7. Despeje água quente na xícara.")
+   	Escreva("8. Aguarde alguns minutos.")
+   	Escreva("9. Pegue uma fatia de pão.")
+   	Escreva("10. Espalhe manteiga ou geleia no pão.")
+}
+   
+   	se ( hora  == 8.15 ){
+   	Escreva("11. Hora de Trabalhar.")
+}
+FimAlgoritmo
